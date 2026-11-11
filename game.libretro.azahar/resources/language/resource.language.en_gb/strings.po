@@ -21,7 +21,7 @@ msgid "Nintendo - 3DS (Azahar)"
 msgstr ""
 
 msgctxt "Addon Description"
-msgid ""
+msgid "Azahar is a Nintendo 3DS emulator, the successor of Citra.[CR][CR]Games must be decrypted."
 msgstr ""
 
 # Empty string with ID 30000
