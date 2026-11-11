@@ -2,7 +2,9 @@
 
 ### Description
 
+Azahar is a Nintendo 3DS emulator, the successor of Citra.
 
+Games must be decrypted.
 
 ### License
 
@@ -10,7 +12,7 @@ GPLv3+
 
 ### Icon
 
-Help make me an icon!
+![Nintendo - 3DS (Azahar) icon](game.libretro.azahar/resources/icon.png)
 
 ### Fanart
 
