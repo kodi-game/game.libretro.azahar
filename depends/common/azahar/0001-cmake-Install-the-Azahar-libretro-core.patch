@@ -1,0 +1,29 @@
+From 814c8adfae1b66fd4cc4395c0a89c754f55c7639 Mon Sep 17 00:00:00 2001
+From: Garrett Brown <themagnificentmrb@gmail.com>
+Date: Wed, 11 Nov 2026 11:26:14 -0800
+Subject: [PATCH] cmake: Install the Azahar libretro core
+
+Install the shared library into lib/libretro so downstream builds can
+find and package it.
+---
+ src/citra_libretro/CMakeLists.txt | 4 ++++
+ 1 file changed, 4 insertions(+)
+
+diff --git a/src/citra_libretro/CMakeLists.txt b/src/citra_libretro/CMakeLists.txt
+index e28f9941b..bd5b96501 100644
+--- a/src/citra_libretro/CMakeLists.txt
++++ b/src/citra_libretro/CMakeLists.txt
+@@ -31,6 +31,10 @@ add_library(citra_libretro SHARED
+ 
+ set_target_properties(citra_libretro PROPERTIES OUTPUT_NAME "azahar_libretro")
+ 
++install(TARGETS citra_libretro
++        LIBRARY DESTINATION lib/libretro
++        RUNTIME DESTINATION lib/libretro)
++
+ create_target_directory_groups(citra_libretro)
+ 
+ if (BSD STREQUAL "NetBSD")
+-- 
+2.43.0
+

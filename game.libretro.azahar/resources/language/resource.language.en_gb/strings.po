@@ -1,0 +1,855 @@
+# game.libretro.azahar language file
+# Addon Name: game.libretro.azahar
+# Addon id: game.libretro.azahar
+# Addon Provider: libretro
+msgid ""
+msgstr ""
+"Project-Id-Version: game.libretro.azahar\n"
+"Report-Msgid-Bugs-To: translations@kodi.tv\n"
+"POT-Creation-Date: 2026-11-11 19:36i\n"
+"PO-Revision-Date: 2026-11-11 19:36i\n"
+"Last-Translator: Kodi Translation Team\n"
+"Language-Team: English (United Kingdom) <https://kodi.weblate.cloud/projects/kodi-add-ons-game/game-libretro-azahar/en_gb/>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: en_gb\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgctxt "Addon Summary"
+msgid "Nintendo - 3DS (Azahar)"
+msgstr ""
+
+msgctxt "Addon Description"
+msgid ""
+msgstr ""
+
+# Empty string with ID 30000
+
+msgctxt "#30001"
+msgid "CPU"
+msgstr ""
+
+msgctxt "#30002"
+msgid "Settings related to CPU emulation performance and accuracy."
+msgstr ""
+
+msgctxt "#30003"
+msgid "CPU JIT"
+msgstr ""
+
+msgctxt "#30004"
+msgid "Enable Just-In-Time compilation for ARM CPU emulation. Significantly improves performance but may reduce accuracy. Restart required."
+msgstr ""
+
+msgctxt "#30005"
+msgid "Enabled"
+msgstr ""
+
+msgctxt "#30006"
+msgid "Disabled"
+msgstr ""
+
+msgctxt "#30007"
+msgid "Fast Interpreter"
+msgstr ""
+
+msgctxt "#30008"
+msgid "When the CPU JIT is disabled or unavailable, use the fast interpreter instead of the legacy interpreter. Restart required."
+msgstr ""
+
+msgctxt "#30009"
+msgid "CPU Clock Speed"
+msgstr ""
+
+msgctxt "#30010"
+msgid "Adjust the emulated 3DS CPU clock speed as a percentage of normal speed. Higher values may improve performance in some games but can cause issues. Lower values can help with games that run too fast."
+msgstr ""
+
+msgctxt "#30011"
+msgid "25%"
+msgstr ""
+
+msgctxt "#30012"
+msgid "50%"
+msgstr ""
+
+msgctxt "#30013"
+msgid "75%"
+msgstr ""
+
+msgctxt "#30014"
+msgid "100% (Default)"
+msgstr ""
+
+msgctxt "#30015"
+msgid "125%"
+msgstr ""
+
+msgctxt "#30016"
+msgid "150%"
+msgstr ""
+
+msgctxt "#30017"
+msgid "175%"
+msgstr ""
+
+msgctxt "#30018"
+msgid "200%"
+msgstr ""
+
+msgctxt "#30019"
+msgid "225%"
+msgstr ""
+
+msgctxt "#30020"
+msgid "250%"
+msgstr ""
+
+msgctxt "#30021"
+msgid "275%"
+msgstr ""
+
+msgctxt "#30022"
+msgid "300%"
+msgstr ""
+
+msgctxt "#30023"
+msgid "325%"
+msgstr ""
+
+msgctxt "#30024"
+msgid "350%"
+msgstr ""
+
+msgctxt "#30025"
+msgid "375%"
+msgstr ""
+
+msgctxt "#30026"
+msgid "400%"
+msgstr ""
+
+msgctxt "#30027"
+msgid "System"
+msgstr ""
+
+msgctxt "#30028"
+msgid "Nintendo 3DS system configuration and region settings."
+msgstr ""
+
+msgctxt "#30029"
+msgid "System Model"
+msgstr ""
+
+msgctxt "#30030"
+msgid "Select whether to emulate the original 3DS or New 3DS. New 3DS has additional CPU power and memory, required for some games. Restart required."
+msgstr ""
+
+msgctxt "#30031"
+msgid "New 3DS"
+msgstr ""
+
+msgctxt "#30032"
+msgid "Original 3DS"
+msgstr ""
+
+msgctxt "#30033"
+msgid "System Region"
+msgstr ""
+
+msgctxt "#30034"
+msgid "Set the 3DS system region. Auto-select will choose based on the game. Some games are region-locked and require matching regions."
+msgstr ""
+
+msgctxt "#30035"
+msgid "Auto"
+msgstr ""
+
+msgctxt "#30036"
+msgid "Japan"
+msgstr ""
+
+msgctxt "#30037"
+msgid "USA"
+msgstr ""
+
+msgctxt "#30038"
+msgid "Europe"
+msgstr ""
+
+msgctxt "#30039"
+msgid "Australia"
+msgstr ""
+
+msgctxt "#30040"
+msgid "China"
+msgstr ""
+
+msgctxt "#30041"
+msgid "Korea"
+msgstr ""
+
+msgctxt "#30042"
+msgid "Taiwan"
+msgstr ""
+
+msgctxt "#30043"
+msgid "System Language"
+msgstr ""
+
+msgctxt "#30044"
+msgid "Set the system language for the emulated 3DS. This affects in-game text language when supported."
+msgstr ""
+
+msgctxt "#30045"
+msgid "English"
+msgstr ""
+
+msgctxt "#30046"
+msgid "Japanese"
+msgstr ""
+
+msgctxt "#30047"
+msgid "French"
+msgstr ""
+
+msgctxt "#30048"
+msgid "Spanish"
+msgstr ""
+
+msgctxt "#30049"
+msgid "German"
+msgstr ""
+
+msgctxt "#30050"
+msgid "Italian"
+msgstr ""
+
+msgctxt "#30051"
+msgid "Dutch"
+msgstr ""
+
+msgctxt "#30052"
+msgid "Portuguese"
+msgstr ""
+
+msgctxt "#30053"
+msgid "Russian"
+msgstr ""
+
+msgctxt "#30054"
+msgid "Korean"
+msgstr ""
+
+msgctxt "#30055"
+msgid "Traditional Chinese"
+msgstr ""
+
+msgctxt "#30056"
+msgid "Simplified Chinese"
+msgstr ""
+
+msgctxt "#30057"
+msgid "Audio"
+msgstr ""
+
+msgctxt "#30058"
+msgid "Audio emulation and microphone settings."
+msgstr ""
+
+msgctxt "#30059"
+msgid "Audio Emulation"
+msgstr ""
+
+msgctxt "#30060"
+msgid "Select audio emulation method. HLE is faster, LLE is more accurate."
+msgstr ""
+
+msgctxt "#30061"
+msgid "HLE (Fast)"
+msgstr ""
+
+msgctxt "#30062"
+msgid "LLE (Accurate)"
+msgstr ""
+
+msgctxt "#30063"
+msgid "LLE Multithreaded"
+msgstr ""
+
+msgctxt "#30064"
+msgid "Microphone Input"
+msgstr ""
+
+msgctxt "#30065"
+msgid "Select how microphone input is handled for games that support it."
+msgstr ""
+
+msgctxt "#30066"
+msgid "None"
+msgstr ""
+
+msgctxt "#30067"
+msgid "Static Noise"
+msgstr ""
+
+msgctxt "#30068"
+msgid "Frontend"
+msgstr ""
+
+msgctxt "#30069"
+msgid "Graphics"
+msgstr ""
+
+msgctxt "#30070"
+msgid "Graphics API, rendering, and visual enhancement settings."
+msgstr ""
+
+msgctxt "#30071"
+msgid "Graphics API"
+msgstr ""
+
+msgctxt "#30072"
+msgid "Select the graphics rendering API. Auto will choose the best available option. Restart required."
+msgstr ""
+
+msgctxt "#30073"
+msgid "OpenGL"
+msgstr ""
+
+msgctxt "#30074"
+msgid "Software"
+msgstr ""
+
+msgctxt "#30075"
+msgid "Hardware Shaders"
+msgstr ""
+
+msgctxt "#30076"
+msgid "Use GPU hardware to accelerate shader processing. Significantly improves performance but may reduce accuracy."
+msgstr ""
+
+msgctxt "#30077"
+msgid "Shader JIT"
+msgstr ""
+
+msgctxt "#30078"
+msgid "Use Just-In-Time compilation for shaders. Improves performance but may cause graphical issues in some games."
+msgstr ""
+
+msgctxt "#30079"
+msgid "Accurate Multiplication"
+msgstr ""
+
+msgctxt "#30080"
+msgid "Use accurate multiplication in shaders. More accurate but can reduce performance. Only works with hardware shaders."
+msgstr ""
+
+msgctxt "#30081"
+msgid "Shader Cache"
+msgstr ""
+
+msgctxt "#30082"
+msgid "Save compiled shaders to disk to reduce loading times on subsequent runs."
+msgstr ""
+
+msgctxt "#30083"
+msgid "Internal Resolution"
+msgstr ""
+
+msgctxt "#30084"
+msgid "Render the 3DS screens at a higher resolution. Higher values improve visual quality but significantly impact performance."
+msgstr ""
+
+msgctxt "#30085"
+msgid "1x (Native 400x240)"
+msgstr ""
+
+msgctxt "#30086"
+msgid "2x (800x480)"
+msgstr ""
+
+msgctxt "#30087"
+msgid "3x (1200x720)"
+msgstr ""
+
+msgctxt "#30088"
+msgid "4x (1600x960)"
+msgstr ""
+
+msgctxt "#30089"
+msgid "5x (2000x1200)"
+msgstr ""
+
+msgctxt "#30090"
+msgid "6x (2400x1440)"
+msgstr ""
+
+msgctxt "#30091"
+msgid "7x (2800x1680)"
+msgstr ""
+
+msgctxt "#30092"
+msgid "8x (3200x1920)"
+msgstr ""
+
+msgctxt "#30093"
+msgid "9x (3600x2160)"
+msgstr ""
+
+msgctxt "#30094"
+msgid "10x (4000x2400)"
+msgstr ""
+
+msgctxt "#30095"
+msgid "11x (4400x2640)"
+msgstr ""
+
+msgctxt "#30096"
+msgid "12x (4800x2880)"
+msgstr ""
+
+msgctxt "#30097"
+msgid "13x (5200x3120)"
+msgstr ""
+
+msgctxt "#30098"
+msgid "14x (5600x3360)"
+msgstr ""
+
+msgctxt "#30099"
+msgid "15x (6000x3600)"
+msgstr ""
+
+msgctxt "#30100"
+msgid "16x (6400x3840)"
+msgstr ""
+
+msgctxt "#30101"
+msgid "17x (6800x4080)"
+msgstr ""
+
+msgctxt "#30102"
+msgid "18x (7200x4320)"
+msgstr ""
+
+msgctxt "#30103"
+msgid "Texture Filter"
+msgstr ""
+
+msgctxt "#30104"
+msgid "Apply texture filtering to enhance visual quality. Some filters may significantly impact performance."
+msgstr ""
+
+msgctxt "#30105"
+msgid "Anime4K (OpenGL only)"
+msgstr ""
+
+msgctxt "#30106"
+msgid "Bicubic"
+msgstr ""
+
+msgctxt "#30107"
+msgid "ScaleForce"
+msgstr ""
+
+msgctxt "#30108"
+msgid "xBRZ"
+msgstr ""
+
+msgctxt "#30109"
+msgid "MMPX"
+msgstr ""
+
+msgctxt "#30110"
+msgid "Texture Sampling"
+msgstr ""
+
+msgctxt "#30111"
+msgid "Control how textures are sampled and filtered."
+msgstr ""
+
+msgctxt "#30112"
+msgid "Game Controlled"
+msgstr ""
+
+msgctxt "#30113"
+msgid "Nearest Neighbor"
+msgstr ""
+
+msgctxt "#30114"
+msgid "Linear"
+msgstr ""
+
+msgctxt "#30115"
+msgid "Custom Textures"
+msgstr ""
+
+msgctxt "#30116"
+msgid "Enable loading of custom texture packs to replace original game textures."
+msgstr ""
+
+msgctxt "#30117"
+msgid "Dump Textures"
+msgstr ""
+
+msgctxt "#30118"
+msgid "Save original game textures to disk for creating custom texture packs. May impact performance."
+msgstr ""
+
+msgctxt "#30119"
+msgid "Layout"
+msgstr ""
+
+msgctxt "#30120"
+msgid "Screen layout and display positioning options."
+msgstr ""
+
+msgctxt "#30121"
+msgid "Screen Layout"
+msgstr ""
+
+msgctxt "#30122"
+msgid "Choose how the 3DS screens are arranged in the display."
+msgstr ""
+
+msgctxt "#30123"
+msgid "Default Top-Bottom"
+msgstr ""
+
+msgctxt "#30124"
+msgid "Single Screen Only"
+msgstr ""
+
+msgctxt "#30125"
+msgid "Large Screen, Small Screen"
+msgstr ""
+
+msgctxt "#30126"
+msgid "Side by Side"
+msgstr ""
+
+msgctxt "#30127"
+msgid "Prominent Screen"
+msgstr ""
+
+msgctxt "#30128"
+msgid "Choose which screen is displayed prominently in single screen or large screen layouts."
+msgstr ""
+
+msgctxt "#30129"
+msgid "Top Screen"
+msgstr ""
+
+msgctxt "#30130"
+msgid "Bottom Screen"
+msgstr ""
+
+msgctxt "#30131"
+msgid "Swap Mode"
+msgstr ""
+
+msgctxt "#30132"
+msgid "How screen swapping behaves when using the screen swap hotkey."
+msgstr ""
+
+msgctxt "#30133"
+msgid "Toggle"
+msgstr ""
+
+msgctxt "#30134"
+msgid "Hold"
+msgstr ""
+
+msgctxt "#30135"
+msgid "Large Screen Proportion"
+msgstr ""
+
+msgctxt "#30136"
+msgid "How many times larger the main screen is compared to the small screen in the Large Screen layout."
+msgstr ""
+
+msgctxt "#30137"
+msgid "1.00x (Equal Size)"
+msgstr ""
+
+msgctxt "#30138"
+msgid "1.25x"
+msgstr ""
+
+msgctxt "#30139"
+msgid "1.50x"
+msgstr ""
+
+msgctxt "#30140"
+msgid "1.75x"
+msgstr ""
+
+msgctxt "#30141"
+msgid "2.00x"
+msgstr ""
+
+msgctxt "#30142"
+msgid "2.25x"
+msgstr ""
+
+msgctxt "#30143"
+msgid "2.50x"
+msgstr ""
+
+msgctxt "#30144"
+msgid "2.75x"
+msgstr ""
+
+msgctxt "#30145"
+msgid "3.00x"
+msgstr ""
+
+msgctxt "#30146"
+msgid "3.25x"
+msgstr ""
+
+msgctxt "#30147"
+msgid "3.50x"
+msgstr ""
+
+msgctxt "#30148"
+msgid "3.75x"
+msgstr ""
+
+msgctxt "#30149"
+msgid "4.00x (Default)"
+msgstr ""
+
+msgctxt "#30150"
+msgid "4.25x"
+msgstr ""
+
+msgctxt "#30151"
+msgid "4.50x"
+msgstr ""
+
+msgctxt "#30152"
+msgid "4.75x"
+msgstr ""
+
+msgctxt "#30153"
+msgid "5.00x"
+msgstr ""
+
+msgctxt "#30154"
+msgid "5.25x"
+msgstr ""
+
+msgctxt "#30155"
+msgid "5.50x"
+msgstr ""
+
+msgctxt "#30156"
+msgid "5.75x"
+msgstr ""
+
+msgctxt "#30157"
+msgid "6.00x"
+msgstr ""
+
+msgctxt "#30158"
+msgid "Stereo 3D Mode"
+msgstr ""
+
+msgctxt "#30159"
+msgid "Stereoscopic 3D output, used when a game is rendering in 3D. 'Off' shows a single 2D image. 'Side by Side' places the left and right eye images beside each other in one frame, each at half width. 'Side by Side (Full)' does the same but keeps each eye at full width. 'Anaglyph' merges both eyes into a single red/cyan image for use with red/cyan glasses. 'Interlaced' alternates the eyes on odd and even scanlines for interlaced 3D displays, and 'Reverse Interlaced' swaps which eye is on which line. 'Cardboard VR' outputs side by side with lens-distortion correction for Cardboard-style viewers."
+msgstr ""
+
+msgctxt "#30160"
+msgid "Off (2D)"
+msgstr ""
+
+msgctxt "#30161"
+msgid "Side by Side (Full)"
+msgstr ""
+
+msgctxt "#30162"
+msgid "Anaglyph (Red/Cyan)"
+msgstr ""
+
+msgctxt "#30163"
+msgid "Interlaced"
+msgstr ""
+
+msgctxt "#30164"
+msgid "Reverse Interlaced"
+msgstr ""
+
+msgctxt "#30165"
+msgid "Cardboard VR"
+msgstr ""
+
+msgctxt "#30166"
+msgid "Stereo 3D Depth"
+msgstr ""
+
+msgctxt "#30167"
+msgid "Depth intensity of the stereoscopic 3D effect, as a percentage. Only used when a 3D mode is active."
+msgstr ""
+
+msgctxt "#30168"
+msgid "0%"
+msgstr ""
+
+msgctxt "#30169"
+msgid "10%"
+msgstr ""
+
+msgctxt "#30170"
+msgid "20%"
+msgstr ""
+
+msgctxt "#30171"
+msgid "30%"
+msgstr ""
+
+msgctxt "#30172"
+msgid "40%"
+msgstr ""
+
+msgctxt "#30173"
+msgid "60%"
+msgstr ""
+
+msgctxt "#30174"
+msgid "70%"
+msgstr ""
+
+msgctxt "#30175"
+msgid "80%"
+msgstr ""
+
+msgctxt "#30176"
+msgid "90%"
+msgstr ""
+
+msgctxt "#30177"
+msgid "100%"
+msgstr ""
+
+msgctxt "#30178"
+msgid "Storage"
+msgstr ""
+
+msgctxt "#30179"
+msgid "Save data and virtual SD card settings."
+msgstr ""
+
+msgctxt "#30180"
+msgid "Virtual SD Card"
+msgstr ""
+
+msgctxt "#30181"
+msgid "Enable virtual SD card support for homebrew and some commercial games."
+msgstr ""
+
+msgctxt "#30182"
+msgid "Save Location"
+msgstr ""
+
+msgctxt "#30183"
+msgid "Choose where save data and system files are stored."
+msgstr ""
+
+msgctxt "#30184"
+msgid "LibRetro Default"
+msgstr ""
+
+msgctxt "#30185"
+msgid "Azahar Default"
+msgstr ""
+
+msgctxt "#30186"
+msgid "Input"
+msgstr ""
+
+msgctxt "#30187"
+msgid "Controller and touchscreen input configuration."
+msgstr ""
+
+msgctxt "#30188"
+msgid "Right Analog Function"
+msgstr ""
+
+msgctxt "#30189"
+msgid "Configure what the right analog stick controls."
+msgstr ""
+
+msgctxt "#30190"
+msgid "C-Stick and Touchscreen Pointer"
+msgstr ""
+
+msgctxt "#30191"
+msgid "Touchscreen Pointer"
+msgstr ""
+
+msgctxt "#30192"
+msgid "C-Stick"
+msgstr ""
+
+msgctxt "#30193"
+msgid "Analog Deadzone"
+msgstr ""
+
+msgctxt "#30194"
+msgid "Set the deadzone percentage for analog input to reduce drift."
+msgstr ""
+
+msgctxt "#30195"
+msgid "5%"
+msgstr ""
+
+msgctxt "#30196"
+msgid "15%"
+msgstr ""
+
+msgctxt "#30197"
+msgid "35%"
+msgstr ""
+
+msgctxt "#30198"
+msgid "Mouse Touchscreen"
+msgstr ""
+
+msgctxt "#30199"
+msgid "Enable mouse input for touchscreen interactions."
+msgstr ""
+
+msgctxt "#30200"
+msgid "Touch Support"
+msgstr ""
+
+msgctxt "#30201"
+msgid "Enable touch device input for touchscreen interactions."
+msgstr ""
+
+msgctxt "#30202"
+msgid "Touch Pointer Timeout"
+msgstr ""
+
+msgctxt "#30203"
+msgid "Whether or not the touchscreen pointer should disappear during inactivity."
+msgstr ""
+
+msgctxt "#30204"
+msgid "Motion Support"
+msgstr ""
+
+msgctxt "#30205"
+msgid "Enable gyroscope and accelerometer input for games that support motion controls."
+msgstr ""
+
+msgctxt "#30206"
+msgid "Motion Sensitivity"
+msgstr ""
+
+msgctxt "#30207"
+msgid "Adjust sensitivity of motion controls (gyroscope/accelerometer)."
+msgstr ""
