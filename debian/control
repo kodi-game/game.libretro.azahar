@@ -4,7 +4,7 @@ Maintainer: wsnipex <wsnipex@a1.net>
 Build-Depends: debhelper (>= 9.0.0),
                cmake,
                kodi-addon-dev,
-               libretro-azahar (>= 2127.0.0) | azahar (>= 2127.0.0)
+               libretro-azahar (>= 11.0.0) | azahar (>= 11.0.0)
 Standards-Version: 3.9.8
 Section: libs
 
